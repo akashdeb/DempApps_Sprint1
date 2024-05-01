@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNg.Dependency"/>
+      <class name="testNg.MultipleData"/>
+      <class name="testNg.Disable"/>
+      <class name="testNg.PostPoneAssertion"/>
+      <class name="testNg.Priority"/>
+      <class name="testNg.HardAssert"/>
+      <class name="testNg.InvocationCount"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
